@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    animated_points.cpp \
+    generated_ellipse.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    animated_points.h \
+    generated_ellipse.h
 
-FORMS    += mainwindow.ui
+FORMS    +=
